@@ -12,11 +12,21 @@
     <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
-    <header class="header"></header>
+    <header id="header">
+      <div class="header-container">
+        <h1 class="logo">☕ Coffee House</h1>
+        <nav class="nav">
+          <button class="nav-btn" data-target="menu-section">Menu</button>
+          <button class="nav-btn" data-target="about-section">About</button>
+          <button class="nav-btn" data-target="contact-section">Contact</button>
+        </nav>
+        <div class="cart-icon">🛒 <span id="cart-count">0</span></div>
+      </div>
+    </header>
     <main>
-      <section class="menu-section"></section>
-      <section class="about-section"></section>
-      <section class="contact-section"></section>
+      <section id="menu-section"></section>
+      <section id="about-section"></section>
+      <section id="contact-section"></section>
     </main>
 
     <script src="js/header.js"></script>
