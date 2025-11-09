@@ -95,7 +95,32 @@
           <button id="show-more-btn">Show More Reviews</button>
         </div>
       </section>
-      <section id="contact-section"></section>
+
+      <section id="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" placeholder="your@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Your message here..." required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div id="form-feedback"></div>
+        </div>
+    </section>
+    
     </main>
 
     <script src="js/header.js"></script>
